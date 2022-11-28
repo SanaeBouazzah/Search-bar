@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+#area{
+    max-width: 300px;
+    width: 100%;
+    margin:40px auto;
+    display: block;
+    padding: 10px;
+}
+.list{
+    list-style: none;
+    margin:0 auto;
+    max-width:300px;
+    width: 100%;
+}
+.list li{
+    padding: 15px 20px;
+    background-color: black;
+    margin: 15px 0;
+    color:#fff;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+}
